@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Mon Dec 12 12:40:25 2022
+Analysis & Synthesis Status : Successful - Mon Dec 12 14:01:45 2022
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Revision Name : StopWatch
-Top-level Entity Name : Mux21
+Top-level Entity Name : Mux81
 Family : Cyclone IV E
-Total logic elements : 0
-    Total combinational functions : 0
+Total logic elements : 5
+    Total combinational functions : 5
     Dedicated logic registers : 0
 Total registers : 0
-Total pins : 4
+Total pins : 12
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

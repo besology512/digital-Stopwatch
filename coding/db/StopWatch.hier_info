@@ -1,7 +1,75 @@
-|Mux21
-D[1] => ~NO_FANOUT~
-D[0] => ~NO_FANOUT~
-S => ~NO_FANOUT~
-Y <= <GND>
+|Mux81
+Y << Mux21:M7.Y
+I[0] => Mux21:M1.D[1]
+I[1] => Mux21:M1.D[0]
+I[2] => Mux21:M2.D[1]
+I[3] => Mux21:M2.D[0]
+I[4] => Mux21:M3.D[1]
+I[5] => Mux21:M3.D[0]
+I[6] => Mux21:M4.D[1]
+I[7] => Mux21:M4.D[0]
+S[0] => Mux21:M1.S
+S[0] => Mux21:M2.S
+S[0] => Mux21:M3.S
+S[0] => Mux21:M4.S
+S[1] => Mux21:M5.S
+S[1] => Mux21:M6.S
+S[2] => Mux21:M7.S
+
+
+|Mux81|Mux21:M1
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+D[1] => X2.IN0
+D[0] => X1.IN0
+S => X2.IN1
+S => X1.IN1
+
+
+|Mux81|Mux21:M2
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+D[1] => X2.IN0
+D[0] => X1.IN0
+S => X2.IN1
+S => X1.IN1
+
+
+|Mux81|Mux21:M3
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+D[1] => X2.IN0
+D[0] => X1.IN0
+S => X2.IN1
+S => X1.IN1
+
+
+|Mux81|Mux21:M4
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+D[1] => X2.IN0
+D[0] => X1.IN0
+S => X2.IN1
+S => X1.IN1
+
+
+|Mux81|Mux21:M5
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+D[1] => X2.IN0
+D[0] => X1.IN0
+S => X2.IN1
+S => X1.IN1
+
+
+|Mux81|Mux21:M6
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+D[1] => X2.IN0
+D[0] => X1.IN0
+S => X2.IN1
+S => X1.IN1
+
+
+|Mux81|Mux21:M7
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+D[1] => X2.IN0
+D[0] => X1.IN0
+S => X2.IN1
+S => X1.IN1
 
 
