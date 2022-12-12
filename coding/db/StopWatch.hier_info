@@ -1,0 +1,7 @@
+|Mux21
+D[1] => ~NO_FANOUT~
+D[0] => ~NO_FANOUT~
+S => ~NO_FANOUT~
+Y <= <GND>
+
+

@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, E:/stopWatch/coding/Mux21.sv
+source_file = 1, E:/stopWatch/coding/db/StopWatch.cbx.xml
+design_name = Mux21
+instance = comp, \Y~output , Y~output, Mux21, 1
+instance = comp, \D[1]~input , D[1]~input, Mux21, 1
+instance = comp, \D[0]~input , D[0]~input, Mux21, 1
+instance = comp, \S~input , S~input, Mux21, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
