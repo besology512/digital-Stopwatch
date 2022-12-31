@@ -13,7 +13,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:03:47 on Dec 12,2022
+# Start time: 12:04:06 on Dec 31,2022
 # vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -95,7 +95,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 14:03:48 on Dec 12,2022, Elapsed time: 0:00:01
+# End time: 12:04:07 on Dec 31,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -106,7 +106,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:03:48 on Dec 12,2022
+# Start time: 12:04:07 on Dec 31,2022
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -170,7 +170,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 14:03:48 on Dec 12,2022, Elapsed time: 0:00:00
+# End time: 12:04:07 on Dec 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -181,7 +181,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:03:48 on Dec 12,2022
+# Start time: 12:04:07 on Dec 31,2022
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -223,7 +223,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 14:03:48 on Dec 12,2022, Elapsed time: 0:00:00
+# End time: 12:04:07 on Dec 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -234,7 +234,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:03:49 on Dec 12,2022
+# Start time: 12:04:08 on Dec 31,2022
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -364,7 +364,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 14:03:50 on Dec 12,2022, Elapsed time: 0:00:01
+# End time: 12:04:09 on Dec 31,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -375,7 +375,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:03:50 on Dec 12,2022
+# Start time: 12:04:09 on Dec 31,2022
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -458,7 +458,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 14:03:50 on Dec 12,2022, Elapsed time: 0:00:00
+# End time: 12:04:09 on Dec 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cycloneive_ver
@@ -469,7 +469,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cycloneive_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cycloneive_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:03:50 on Dec 12,2022
+# Start time: 12:04:10 on Dec 31,2022
 # vlog -reportprogress 300 -vlog01compat -work cycloneive_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cycloneive_atoms.v 
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFE
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
@@ -547,7 +547,7 @@
 # 	cycloneive_jtag
 # 	cycloneive_crcblock
 # 	cycloneive_oscillator
-# End time: 14:03:51 on Dec 12,2022, Elapsed time: 0:00:01
+# End time: 12:04:10 on Dec 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -561,66 +561,113 @@
 # 
 # vlog -sv -work work +incdir+E:/stopWatch/coding {E:/stopWatch/coding/Mux21.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:03:51 on Dec 12,2022
+# Start time: 12:04:10 on Dec 31,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+E:/stopWatch/coding" E:/stopWatch/coding/Mux21.sv 
 # -- Compiling module Mux21
 # 
 # Top level modules:
 # 	Mux21
-# End time: 14:03:51 on Dec 12,2022, Elapsed time: 0:00:00
+# End time: 12:04:10 on Dec 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+E:/stopWatch/coding {E:/stopWatch/coding/Mux81.sv}
+# vlog -sv -work work +incdir+E:/stopWatch/coding {E:/stopWatch/coding/CountControl.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:03:51 on Dec 12,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+E:/stopWatch/coding" E:/stopWatch/coding/Mux81.sv 
-# -- Compiling module Mux81
+# Start time: 12:04:10 on Dec 31,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/stopWatch/coding" E:/stopWatch/coding/CountControl.sv 
+# -- Compiling module CountControl
 # 
 # Top level modules:
-# 	Mux81
-# End time: 14:03:51 on Dec 12,2022, Elapsed time: 0:00:00
+# 	CountControl
+# End time: 12:04:10 on Dec 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/stopWatch/coding {E:/stopWatch/coding/SJKff.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:04:11 on Dec 31,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/stopWatch/coding" E:/stopWatch/coding/SJKff.sv 
+# -- Compiling module SJKff
+# 
+# Top level modules:
+# 	SJKff
+# End time: 12:04:11 on Dec 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vsim work.Mux21
-# vsim work.Mux21 
-# Start time: 14:04:37 on Dec 12,2022
+vsim work.CountControl
+# vsim work.CountControl 
+# Start time: 12:04:19 on Dec 31,2022
 # Loading sv_std.std
+# Loading work.CountControl
 # Loading work.Mux21
-vsim work.Mux21
-# End time: 14:04:41 on Dec 12,2022, Elapsed time: 0:00:04
-# Errors: 0, Warnings: 0
-# vsim work.Mux21 
-# Start time: 14:04:41 on Dec 12,2022
-# Loading sv_std.std
-# Loading work.Mux21
+# Loading work.SJKff
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'D1'. The port definition is at: E:/stopWatch/coding/Mux21.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /CountControl/M1 File: E:/stopWatch/coding/CountControl.sv Line: 22
 add wave -position insertpoint  \
-sim:/Mux21/D \
-sim:/Mux21/S \
-sim:/Mux21/Y \
-sim:/Mux21/Sn \
-sim:/Mux21/X1 \
-sim:/Mux21/X2
-force -freeze {sim:/Mux21/D[0]} 1 0, 0 {50 ps} -r 100
-force -freeze {sim:/Mux21/D[1]} 1 0, 0 {100 ps} -r 200
-force -freeze sim:/Mux21/S 0 0
+sim:/CountControl/COUNT \
+sim:/CountControl/UpDown \
+sim:/CountControl/CLK \
+sim:/CountControl/RST \
+sim:/CountControl/Q0 \
+sim:/CountControl/Q1 \
+sim:/CountControl/Q2 \
+sim:/CountControl/Q3 \
+sim:/CountControl/Q4 \
+sim:/CountControl/Q5 \
+sim:/CountControl/Q6 \
+sim:/CountControl/Q7 \
+sim:/CountControl/Q8 \
+sim:/CountControl/Q9 \
+sim:/CountControl/Q10 \
+sim:/CountControl/Q11 \
+sim:/CountControl/Q12 \
+sim:/CountControl/Q13 \
+sim:/CountControl/Q14 \
+sim:/CountControl/Q15 \
+sim:/CountControl/outCount \
+sim:/CountControl/outUP
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ZC  Hostname: BASSAM  ProcessID: 15132
+#           Attempting to use alternate WLF file "./wlfts2qh2z".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfts2qh2z
+force -freeze sim:/CountControl/COUNT 1 0
+force -freeze sim:/CountControl/UpDown 1 0
+force -freeze sim:/CountControl/RST 1 0
+force -freeze sim:/CountControl/Q0 0 0
+force -freeze sim:/CountControl/Q1 0 0
+force -freeze sim:/CountControl/Q2 0 0
+force -freeze sim:/CountControl/Q3 1 0
+force -freeze sim:/CountControl/Q4 1 0
+force -freeze sim:/CountControl/Q5 1 0
+force -freeze sim:/CountControl/Q6 0 0
+force -freeze sim:/CountControl/Q7 0 0
+force -freeze sim:/CountControl/Q8 1 0
+force -freeze sim:/CountControl/Q9 0 0
+force -freeze sim:/CountControl/Q10 0 0
+force -freeze sim:/CountControl/Q11 1 0
+force -freeze sim:/CountControl/Q12 0 0
+force -freeze sim:/CountControl/Q13 0 0
+force -freeze sim:/CountControl/Q14 1 0
+force -freeze sim:/CountControl/Q15 0 0
+force -freeze sim:/CountControl/Q3 St0 0
+run
+force -freeze sim:/CountControl/CLK 1 0, 0 {50 ps} -r 100
 run
 run
-force -freeze sim:/Mux21/S 1 0
+force -freeze sim:/CountControl/RST St0 0
 run
 run
 run
+force -freeze sim:/CountControl/UpDown St0 0
 run
-# WARNING: No extended dataflow license exists
-vsim work.Mux81
-# End time: 14:10:47 on Dec 12,2022, Elapsed time: 0:06:06
-# Errors: 0, Warnings: 0
-# vsim work.Mux81 
-# Start time: 14:10:47 on Dec 12,2022
-# Loading sv_std.std
-# Loading work.Mux81
-# Loading work.Mux21
-add wave -position insertpoint  \
-sim:/Mux81/I \
-sim:/Mux81/S \
-sim:/Mux81/Y
-# End time: 14:25:03 on Dec 12,2022, Elapsed time: 0:14:16
-# Errors: 0, Warnings: 0
+force -freeze sim:/CountControl/Q6 St1 0
+run
+run
+force -freeze sim:/CountControl/UpDown St0 0
+run
+force -freeze sim:/CountControl/COUNT St0 0
+run
+noforce sim:/CountControl/UpDown
+force -freeze sim:/CountControl/UpDown St1 0
+run
+force -freeze sim:/CountControl/COUNT St1 0
+run
+force -freeze sim:/CountControl/UpDown St0 0
+run

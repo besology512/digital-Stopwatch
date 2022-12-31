@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE22F17C6
-set_global_assignment -name TOP_LEVEL_ENTITY Mux81
+set_global_assignment -name TOP_LEVEL_ENTITY CountControl
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:02:35  DECEMBER 12, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
@@ -58,8 +58,33 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name SYSTEMVERILOG_FILE SevenSegment.sv
+set_global_assignment -name SYSTEMVERILOG_FILE OperationUnit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE FullAdder4b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Counter09.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Counter05.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Comparitor4b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE BCDSubtractor8b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE BCDSubtractor4b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE BCDAdder16b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE BCDAdder4b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SRJKFF.sv
+set_global_assignment -name SYSTEMVERILOG_FILE DRFF.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ClockControl.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Mux21.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Mux81.sv
+set_global_assignment -name SYSTEMVERILOG_FILE FullAdder1b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE FullAdder16b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Comparitor1b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Comparitor16b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Checker1b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Checker16b.sv
+set_global_assignment -name SYSTEMVERILOG_FILE CountControl.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Timer.sv
+set_global_assignment -name SYSTEMVERILOG_FILE NormalCLK.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SJKff.sv
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

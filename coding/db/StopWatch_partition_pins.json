@@ -4,51 +4,91 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "Y",
+					"name" : "outCount",
 					"strict" : false
 				},
 				{
-					"name" : "I[2]",
+					"name" : "outUP",
 					"strict" : false
 				},
 				{
-					"name" : "S[0]",
+					"name" : "COUNT",
 					"strict" : false
 				},
 				{
-					"name" : "I[1]",
+					"name" : "Q0",
 					"strict" : false
 				},
 				{
-					"name" : "S[1]",
+					"name" : "Q1",
 					"strict" : false
 				},
 				{
-					"name" : "I[3]",
+					"name" : "Q2",
 					"strict" : false
 				},
 				{
-					"name" : "I[0]",
+					"name" : "Q3",
 					"strict" : false
 				},
 				{
-					"name" : "I[5]",
+					"name" : "Q6",
 					"strict" : false
 				},
 				{
-					"name" : "I[6]",
+					"name" : "Q7",
 					"strict" : false
 				},
 				{
-					"name" : "I[7]",
+					"name" : "Q9",
 					"strict" : false
 				},
 				{
-					"name" : "I[4]",
+					"name" : "Q5",
 					"strict" : false
 				},
 				{
-					"name" : "S[2]",
+					"name" : "Q10",
+					"strict" : false
+				},
+				{
+					"name" : "Q13",
+					"strict" : false
+				},
+				{
+					"name" : "Q15",
+					"strict" : false
+				},
+				{
+					"name" : "UpDown",
+					"strict" : false
+				},
+				{
+					"name" : "Q14",
+					"strict" : false
+				},
+				{
+					"name" : "Q4",
+					"strict" : false
+				},
+				{
+					"name" : "Q8",
+					"strict" : false
+				},
+				{
+					"name" : "Q11",
+					"strict" : false
+				},
+				{
+					"name" : "Q12",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RST",
 					"strict" : false
 				}
 			]

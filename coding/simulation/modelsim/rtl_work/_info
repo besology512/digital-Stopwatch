@@ -9,57 +9,84 @@ z2
 !i10f 100
 cModel Technology
 Z0 dE:/stopWatch/coding/simulation/modelsim
-vMux21
+vCountControl
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1670846631
+Z2 !s110 1672481050
 !i10b 1
-!s100 h`ho=:USfa;Zg;OlGDK183
+!s100 ZQGIn82kHMYmNiI:z^DW70
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-ITlk@Z_6hfXDDZD=FoQZRn0
+ImLfBIFn@mkVUN4VVVYG3F1
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1670846495
-8E:/stopWatch/coding/Mux21.sv
-FE:/stopWatch/coding/Mux21.sv
-!i122 0
-L0 1 13
+w1672480840
+8E:/stopWatch/coding/CountControl.sv
+FE:/stopWatch/coding/CountControl.sv
+!i122 1
+L0 1 28
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1670846631.000000
-!s107 E:/stopWatch/coding/Mux21.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/stopWatch/coding|E:/stopWatch/coding/Mux21.sv|
+Z6 !s108 1672481050.000000
+!s107 E:/stopWatch/coding/CountControl.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/stopWatch/coding|E:/stopWatch/coding/CountControl.sv|
 !i113 1
 Z7 o-sv -work work
 Z8 !s92 -sv -work work +incdir+E:/stopWatch/coding
 Z9 tCvgOpt 0
-n@mux21
-vMux81
+n@count@control
+vMux21
 R1
 R2
 !i10b 1
-!s100 _l8IagdHi6TWf6nSCeALS0
+!s100 L=9WC1]QdXS5MJZogVhAC0
 R3
-Iz8AO9h?i3Ig`Td=C=5]NV1
+IJ9Y=Ie^_CPJ`z@9SGV]6J1
 R4
 S1
 R0
-w1670845588
-8E:/stopWatch/coding/Mux81.sv
-FE:/stopWatch/coding/Mux81.sv
-!i122 1
-L0 1 19
+w1671402270
+8E:/stopWatch/coding/Mux21.sv
+FE:/stopWatch/coding/Mux21.sv
+!i122 0
+L0 1 13
 R5
 r1
 !s85 0
 31
 R6
-!s107 E:/stopWatch/coding/Mux81.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/stopWatch/coding|E:/stopWatch/coding/Mux81.sv|
+!s107 E:/stopWatch/coding/Mux21.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/stopWatch/coding|E:/stopWatch/coding/Mux21.sv|
 !i113 1
 R7
 R8
 R9
-n@mux81
+n@mux21
+vSJKff
+R1
+!s110 1672481051
+!i10b 1
+!s100 7^;knc7=?jZ4CRe;nQQ;n1
+R3
+IjQf9g_X:281bCdJ?5zl8d0
+R4
+S1
+R0
+w1672479935
+8E:/stopWatch/coding/SJKff.sv
+FE:/stopWatch/coding/SJKff.sv
+!i122 2
+L0 1 23
+R5
+r1
+!s85 0
+31
+!s108 1672481051.000000
+!s107 E:/stopWatch/coding/SJKff.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/stopWatch/coding|E:/stopWatch/coding/SJKff.sv|
+!i113 1
+R7
+R8
+R9
+n@s@j@kff

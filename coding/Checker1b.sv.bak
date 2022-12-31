@@ -1,0 +1,20 @@
+module Checker1b (
+    I,RST,Op,Sadd,Ssub,E,G,M,Qmax,Qmin
+);
+    input logic RST,Op,Sadd,Ssub,E,G,M,Qmax,Qmin;
+    output logic I;
+    wire nRST,nE,nG,nM;
+    wire w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11;
+    and(w1,RST,Qmin);
+    and(w2,nRST,Op,M);
+    and(w3,E,Qmax);
+    and(w4,nE,Sadd);
+    or(w5,w3,w4);
+    and(w6,RST,Op,nM);
+    and(w7,G,Qmin);
+    and(w8,nG,Ssub);
+    or(w9,w7,w8);
+    and(w10,w9,w6);
+    and(w11,w2,w5);
+    or(I,w1,w10,w11);
+endmodule

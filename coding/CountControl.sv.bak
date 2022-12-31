@@ -1,0 +1,33 @@
+module CountControl (
+    Count,UpDown,
+    Q0,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12,Q13,Q14,Q15
+);
+    input UpDown;
+    input Q0,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12,Q13,Q14,Q15;
+    output Count;
+
+    //first or term
+    wire wAnd0, wAnd1, wAnd2, wAnd3;
+    and(wAnd0,~Q15,Q14,~Q13,~Q12);
+    and(wAnd1,Q11,~Q10,~Q9,Q8);
+    and(wAnd2,~Q7,~Q6,Q5,Q4);
+    and(wAnd3,~Q3,~Q2,~Q1,~Q0);
+    wire nwMaxUp,wMaxUp;
+    and(wMaxUp,wAnd0,wAnd1,wAnd2,wAnd3);
+    not(nwMaxUp,wMaxUp)
+    wire upMode;
+    and(upMode,UpDown,nwMaxUp); 
+    //second or term
+    wire wAnd4, wAnd5, wAnd6, wAnd7;
+    and(wAnd4,~Q15,~Q14,~Q13,Q12);
+    and(wAnd5,~Q11,~Q10,~Q9,~Q8);
+    and(wAnd6,~Q7,~Q6,Q5,~Q4);
+    and(wAnd7,~Q3,~Q2,~Q1,~Q0);
+    wire wMaxDown,nwMaxDown;
+    and(wMaxDown,wAnd4,wAnd5,wAnd6,wAnd7);
+    not(nwMaxDown,wMaxDown);
+    wire downMode;
+    and(downMode,UpDown,nwMaxDown);
+    // oring the two terms
+    or(Count,upMode,downMode); 
+endmodule

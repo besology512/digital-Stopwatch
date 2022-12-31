@@ -1,0 +1,61 @@
+module Timer (
+    Q0,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12,Q13,Q14,Q15,CLK,LOAD,COUNT,MODE,RST,
+    I0,I1,I2,I3,I4,I5,I6,I7,I8,I9,I10,I11,I12,I13,I14,I15
+);
+    input CLK,LOAD,COUNT,MODE,RST;
+    input I0,I1,I2,I3,I4,I5,I6,I7,I8,I9,I10,I11,I12,I13,I14,I15; //all inputs
+    output Q0,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12,Q13,Q14,Q15; // the outputs goes to 7 segment decoder
+wire Trg1,Trg2,Trg3,Trg4;
+    // S0
+    Counter09 S0Counter( 
+        Q0,Q1,Q2,Q3, 
+        Trg1, 
+        CLK, 
+        LOAD, 
+        COUNT, 
+        MODE, 
+        RST,
+        I0,I1,I2,I3
+    );
+ wire w1;
+ and(w1,Trg1,COUNT);
+    // S1
+    Counter05 S1Counter( 
+        Q4,Q5,Q6,Q7, 
+        Trg2, 
+        CLK, 
+        LOAD, 
+        w1, 
+        MODE, 
+        RST,
+        I4,I5,I6,I7
+    ); 
+     
+ wire w2;
+ and(w2,Trg2,COUNT);
+    // M0
+    Counter09 M0Counter( 
+        Q8,Q9,Q10,Q11, 
+        Trg3, 
+        CLK, 
+        LOAD, 
+        w2, 
+        MODE, 
+        RST,
+        I8,I9,I10,I11
+    ); 
+ wire w3
+ and(w3,Trg3,COUNT);
+    // M1
+    Counter05 M1Counter( 
+        Q12,Q13,Q14,Q15, 
+        Trg4, 
+        CLK, 
+        LOAD, 
+        w3, 
+        MODE, 
+        RST,
+        I12,I13,I14,I15, 
+    ); 
+
+endmodule

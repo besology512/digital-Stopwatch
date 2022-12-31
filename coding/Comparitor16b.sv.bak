@@ -1,0 +1,32 @@
+module Comparitor16b (
+    OUT,
+    upper0,upper1,upper2,upper3,upper4,upper5,upper6,upper7,upper8,upper9,upper10,upper11,upper12,upper13,upper14,upper15,
+    lower0,lower1,lower2,lower3,lower4,lower5,lower6,lower7,lower8,lower9,lower10,lower11, lower12,lower13,lower14,lower15
+);
+    input logic upper0,upper1,upper2,upper3,upper4,upper5,upper6,upper7,upper8,upper9,upper10,upper11,upper12,upper13,upper14,upper15;
+    input logic lower0,lower1,lower2,lower3,lower4,lower5,lower6,lower7,lower8,lower9,lower10,lower11, lower12,lower13,lower14,lower15;
+    output logic OUT;
+    wire out0,out1,out2,out3,out4,out5,out6,out7,out8,out9,out10,out11,out12,out13,out14,out15;
+    Comparitor1b(out0,upper0,lower0);
+    Comparitor1b(out1,upper1,lower1);
+    Comparitor1b(out2,upper2,lower2);
+    Comparitor1b(out3,upper3,lower3);
+    Comparitor1b(out4,upper4,lower4);
+    Comparitor1b(out5,upper5,lower5);
+    Comparitor1b(out6,upper6,lower6);
+    Comparitor1b(out7,upper7,lower7);
+    Comparitor1b(out8,upper8,lower8);
+    Comparitor1b(out9,upper9,lower9);
+    Comparitor1b(out10,upper10,lower10);
+    Comparitor1b(out11,upper11,lower11);
+    Comparitor1b(out12,upper12,lower12);
+    Comparitor1b(out13,upper13,lower13);
+    Comparitor1b(out14,upper14,lower14);
+    Comparitor1b(out15,upper15,lower15);
+    wire out0to3,out4to7,out8to11,out12to15;
+    and(out0to3,out0,out1,out2,out3);
+    and(out4to7,out4,out5,out6,out7);
+    and(out8to11,out8,out9,out10,out11);
+    and(out12to15,out12,out13,out14,out15);
+    and(OUT,out0to3,out4to7,out8to11,out12to15);
+endmodule

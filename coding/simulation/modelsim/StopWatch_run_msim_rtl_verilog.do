@@ -34,5 +34,6 @@ vlib rtl_work
 vmap work rtl_work
 
 vlog -sv -work work +incdir+E:/stopWatch/coding {E:/stopWatch/coding/Mux21.sv}
-vlog -sv -work work +incdir+E:/stopWatch/coding {E:/stopWatch/coding/Mux81.sv}
+vlog -sv -work work +incdir+E:/stopWatch/coding {E:/stopWatch/coding/CountControl.sv}
+vlog -sv -work work +incdir+E:/stopWatch/coding {E:/stopWatch/coding/SJKff.sv}
 

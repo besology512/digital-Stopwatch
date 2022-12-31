@@ -1,0 +1,10 @@
+module Comparitor1b (
+    out,upper,lower
+);
+    input logic upper,lower;
+    output logic out;
+    wire w1,w2,nlower;
+    xor(w1,upper,lower);
+    not(nlower,lower);
+    and(w2,nlower,upper);
+endmodule
